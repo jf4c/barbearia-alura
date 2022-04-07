@@ -1,0 +1,161 @@
+/*------------------------HEADER-----------------------*/
+header{
+	background: url(../img/banner.jpg);
+	height: 500px; ;
+	padding: 20px;
+	/* margin-bottom: px; */
+}
+nav{
+	border: 2px solid #000;
+	border-radius: 100px;
+	margin: 0 auto;
+	width: 65%;
+	background-color: #A9A9A9;
+	padding: 5px;
+}
+nav h1{
+	text-align: center;
+}
+nav li{
+	display: inline;
+	margin: 0 10px;
+}
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	color: #000;
+}
+nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.listas{
+	display: block;
+	position: relative;
+	top: 50%;
+	text-align: center;
+}
+h1{
+	display: inline;
+}
+.logoAlura{
+	display: inline;
+	width: 100px;
+	
+}
+
+.listaHomeProd{
+	display: inline-block;
+	position: relative;
+	bottom: 55px;	
+}
+
+.listaEndCont{
+	display: inline-block;
+	position: relative;
+	bottom: 55px;
+}
+/*------------------------HEADER-----------------------*/
+main{
+	background: #A9A9A9;
+	height: 1090px;
+	
+}
+.boxPrincipal{
+	position:static;
+	width: 550px;
+	margin: 0 auto;
+}
+.principal{
+	position: absolute;
+	background: #CCC;
+	padding: 10px;
+	width: 500px;
+	height: 500px;
+	border: 5px solid #000;
+	border-radius: 20px;
+	margin: 10px;
+
+}
+.principal p{
+	font-size: 23px;
+	padding: 10px;
+
+
+}
+.boxImg{
+	position: relative;
+	width: 130px;
+	margin: 0 auto;
+
+}
+.principal img{
+	width: 130px;
+	border: thick double  #000;
+	border-radius: 100px;
+	
+}
+.titulo-principal{
+	text-align: center;
+	font-size: 50px;
+}
+#missao {
+	font-size: 25px
+}
+em strong {
+	color: #FF0000;
+}
+
+.beneficios {
+	position: relative;
+	top: 550px;
+	background-color: #A9A9A9;
+	/* width: 97.9%; */
+	height: 500px;
+	padding: 10px;
+}
+
+.beneficios ul {
+	text-align: center;
+	display: inline-block;
+	font-size: 30px;
+	vertical-align: top;
+	width: 100%;
+}
+
+.titulo-centralizado{
+	text-align: center;
+	font-size: 50px;
+	padding: 10px;
+}
+
+.itens {
+	display: inline;
+	font-style: italic;
+	margin-right: 50px;
+	
+}
+.box-Img-Beneficios{
+	text-align: center;
+}
+
+.imagemBeneficios {
+	margin: 20px;
+	width: 600px;
+}
+
+footer{
+    text-align: center;
+    background: url("../img/bg.jpg");
+	
+
+}
+.Copyright{
+   color: #FFF;
+   font-size: 13; 
+   margin-top:20px ;
+   padding-bottom: 20px;
+}
